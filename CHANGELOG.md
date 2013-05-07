@@ -3,7 +3,7 @@
 - Set auto-increment to VesselSetup.vesselSetupId, ExperimentSetup.setupId, and User.userId (close #3)
 - Change naming of ExperimentSetup.setupId to ExperimentSetup.experimentSetupId
 
-## Version 5.3
+## Version 5.3 (4/18/2013)
 
 - Remove relationship VesselPlates.side->ChamberSides.side 
 - Added VesselSetup.chamber (Close #1)
