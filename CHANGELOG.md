@@ -1,3 +1,11 @@
+## Version 6.0 (5/15/2013)
+
+- Change name of diagram schema from 'mydb' to 'mdpx'.
+- Add one-to-many relationship Experiments.experimentId->ExperimentSetup.experimentId.
+- Add Measurements table and move Experiments.expDataPath to the new table.
+- Add one-to-many relationship Experiments.experimentId->ExperimentSetup.experimentId.
+- Add dateTime field to VesselSetup and ExperimentSetup.
+
 ## Version 5.4 (5/7/2013)
 
 - Set auto-increment to VesselSetup.vesselSetupId, ExperimentSetup.setupId, and User.userId (close #3)
