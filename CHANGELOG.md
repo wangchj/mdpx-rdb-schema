@@ -1,3 +1,13 @@
+## Version 7.1 (5/23/2013)
+
+- Make table names consistent.
+  - Change table name VesselSetup to VesselSetups. …
+  - Change table name ExperimentSetup to ExperimentSetups.
+- Remove unnecessary fields.
+  - description field of VesselSetup table.
+  - description field of DustTypes table.
+  - name field of Parts table.
+
 ## Version 7.0 (5/23/2013)
 
 - Merged 'connected' branch to master.
