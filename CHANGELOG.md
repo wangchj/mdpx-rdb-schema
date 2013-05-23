@@ -1,3 +1,11 @@
+## Version 7.0 (5/23/2013)
+
+- Merged 'connected' branch to master.
+  - Remove VesselPlates table.
+  - Add SetupParts table.
+  - SetupParts.parent references itself.
+  - Modify SetupCameras and SetupProbes table to link to the new SetupParts table.
+
 ## Version 6.0 (5/15/2013)
 
 - Change name of diagram schema from 'mydb' to 'mdpx'.
