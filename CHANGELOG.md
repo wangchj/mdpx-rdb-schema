@@ -1,7 +1,12 @@
+## Version 7.2 (6/12/2013)
+
+- Parts in VesselSetups table will now be recorded in SetupParts table; therefore, the following fields are removed from VesselSetups table: chamber, upperElectrode, lowerElectrode, roughPump, turboPump, massFlowController, pressureGauge, dustShaker.
+- Add isGroup (boolean) field to PartCategories table.
+
 ## Version 7.1 (5/23/2013)
 
 - Make table names consistent.
-  - Change table name VesselSetup to VesselSetups. …
+  - Change table name VesselSetup to VesselSetups.
   - Change table name ExperimentSetup to ExperimentSetups.
 - Remove unnecessary fields.
   - description field of VesselSetup table.
