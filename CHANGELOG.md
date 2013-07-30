@@ -1,3 +1,11 @@
+## Version 8.0 (7/30/2013)
+
+- Added tables for application user access control: Roles, UserRoles, RolePermissions.
+- Change type of rfPowerSetpoint of ExperimentSetups from VCHAR(45) to type DECIMAL(18,9).
+- Set unique flag on Users.email.
+- Add boolean field 'isProgrammed' to table Experiments.
+- Set auto-increment on SetupParts.setupPartId.
+
 ## Version 7.2 (6/12/2013)
 
 - Parts in VesselSetups table will now be recorded in SetupParts table; therefore, the following fields are removed from VesselSetups table: chamber, upperElectrode, lowerElectrode, roughPump, turboPump, massFlowController, pressureGauge, dustShaker.
