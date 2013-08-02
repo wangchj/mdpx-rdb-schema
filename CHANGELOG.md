@@ -1,3 +1,7 @@
+## Version 8.1 (8/2/2013)
+
+- Set auto-increment on Experiments.experimentId.
+
 ## Version 8.0 (7/30/2013)
 
 - Added tables for application user access control: Roles, UserRoles, RolePermissions.
