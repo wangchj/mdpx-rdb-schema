@@ -1,3 +1,8 @@
+## Version 9 (10/25/2013)
+
+- Set auto-increment on Experiments.experimentId.
+- Increase size of Parts.serialNum from VARCHAR(10) to VARCHAR(30).
+
 ## Version 8.1 (8/2/2013)
 
 - Set auto-increment on Experiments.experimentId.
